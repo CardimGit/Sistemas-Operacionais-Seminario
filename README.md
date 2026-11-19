@@ -12,8 +12,8 @@
 202401793 - JOAO VITOR CARDIM RODRIGUES
 
 ## Apresentações
-1. https://canva.link/73rfhcrhd8khglb <br>
-2. Link para a segunda apresentação (canva, google slides, etc.) <br>
+1. [Checkpoint 1](https://canva.link/73rfhcrhd8khglb) <br>
+2. [Checkpoint 2](https://canva.link/xav05632zgdrol2) <br>
 3. Link para a terceira apresentação (canva, google slides, etc.) <br>
 
 ## Resumo
