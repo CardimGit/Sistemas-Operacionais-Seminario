@@ -27,7 +27,7 @@
 - **Motivação:** Dois membros do projeto já apresentavam interesse pelo tema de virtualização: Hellen trabalha na área de segurança de redes de computadores e queria introduzir a utilização de firewalls virtuais; João Vítor faz parte de um projeto de virtualização e offloading de processos. Assim sendo, unindo o útil ao agradável, seguimos a ideia de Hellen de trabalharmos com segurança de redes utilizando virtualização. <br>
 Nesse sentido, trabalharemos com os temas de **Virtualização** e **Segurança de Redes**, de modo a utilizar conceitos apresentados durante a disciplina, como por exemplo o de kernell e system calls.
 - **Revisão bibliográfica:** 
-[[1]](#referências) é o livro da disciplina; [2] apresenta a inportância de universitários trabalharem com a virtualização e firewalls virtuais, validando nossa escolha de tema [3] introduz o conceito de hypervisor (utilizado pela VirtualBox) e sua importância para computação em redes; [4], [5] e [6] abordam a virtualização em rede em um escopo similar à nossa pesquisa e serão utilizados em nossa discussão; [7] é a página de um projeto de estado da arte que também será utilizado em nossa discussão; [8], [9], [10] e [11] são a documentação das ferramentas (Virtual Box, pfSense e iperf3) que serão utilizadas no projeto. <br>
+[[1]](#referências) é o livro da disciplina; [[2]](#referências) apresenta a inportância de universitários trabalharem com a virtualização e firewalls virtuais, validando nossa escolha de tema [[3]](#referências) introduz o conceito de hypervisor (utilizado pela VirtualBox) e sua importância para computação em redes; [[4]](#referências), [[5]](#referências) e [[6]](#referências) abordam a virtualização em rede em um escopo similar à nossa pesquisa e serão utilizados em nossa discussão; [[7]](#referências) é a página de um projeto de estado da arte que também será utilizado em nossa discussão; [[8]](#referências), [[9]](#referências), [[10]](#referências) e [[11]](#referências) são a documentação das ferramentas (Virtual Box, pfSense e iperf3) que serão utilizadas no projeto. <br>
 - **Objetivos:** Entender e aplicar os conceitos de **Virtualização** em **Seguraça de Redes** de modo a simular uma rede de computadores virtuais e realizar o benchamarking de uma máquina virtual funcionando com e sem firewalls virtuais.
 
 ## Metodologia
@@ -43,7 +43,6 @@ Sempre comparando com a máquina controle (àquela que não apresenta a proteç�
 ## Resultados
 - Gráficos
 - Tabelas
-- Multimídia (vídeos, imagens, áudio)
 
 ## Discussão
 Análise com base na literatura utilizada na Introdução.
