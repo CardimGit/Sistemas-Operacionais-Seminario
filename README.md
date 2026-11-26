@@ -14,20 +14,20 @@
 ## Apresentações
 1. [Checkpoint 1](https://canva.link/73rfhcrhd8khglb) <br>
 2. [Checkpoint 2](https://canva.link/xav05632zgdrol2) <br>
-3. Link para a terceira apresentação (canva, google slides, etc.) <br>
+3. [Checkpoint 3](https://canva.link/2hpzwikvyz9jvg0) <br>
 
 ## Resumo
 - Introdução: O Seminário consiste no desenvolvimento de uma simulação virtual de uma rede de computadores. Faremos a comparação do benchmarking de duas máquinas virtuais e suas respostas a ataques de segurança: uma apresentando firewall virtual e outra sem proteção.
 - Métodos: O software VirtualBox (Oracle) será o ambiente de laboratório onde as máquinas funcionarão. Por sua vez, o software pfSense será utilizado para a introduão do firewall virtual. Por fim, a comparação de benchmarking será provida pelos dados colhidos no próprio pfSense. 
 - Resultados Esperados: É esperado que a máquina virtual que rode com a proteção de um firewall virtual tenha uma performance pior do que aquela sem a proteção. Nosse enfoque é analizar a proximidade entre esses dois casos de uso.
-- Conclusão (1 oração)
+- Conclusão: Nossos testes revelam uma perda de performance que é justificada pelos benefícios advindos da utilização do firewall, portanto acreditamos que a virtualização terá um papel importante no futuro das redes. Veja mais na seção de [discussão](#discussão).
 
 ## Introdução
 
 - **Motivação:** Dois membros do projeto já apresentavam interesse pelo tema de virtualização: Hellen trabalha na área de segurança de redes de computadores e queria introduzir a utilização de firewalls virtuais; João Vítor faz parte de um projeto de virtualização e offloading de processos. Assim sendo, unindo o útil ao agradável, seguimos a ideia de Hellen de trabalharmos com segurança de redes utilizando virtualização. <br>
 Nesse sentido, trabalharemos com os temas de **Virtualização** e **Segurança de Redes**, de modo a utilizar conceitos apresentados durante a disciplina, como por exemplo o de kernell e system calls.
 - **Revisão bibliográfica:** 
-[[1]](#referências) é o livro da disciplina; [[2]](#referências) apresenta a inportância de universitários trabalharem com a virtualização e firewalls virtuais, validando nossa escolha de tema [[3]](#referências) introduz o conceito de hypervisor (utilizado pela VirtualBox) e sua importância para computação em redes; [[4]](#referências), [[5]](#referências) e [[6]](#referências) abordam a virtualização em rede em um escopo similar à nossa pesquisa e serão utilizados em nossa discussão; [[7]](#referências) é a página de um projeto de estado da arte que também será utilizado em nossa discussão; [[8]](#referências), [[9]](#referências), [[10]](#referências) e [[11]](#referências) são a documentação das ferramentas (Virtual Box, pfSense e iperf3) que serão utilizadas no projeto. <br>
+[[1]](#referências) é o livro da disciplina; [[2]](#referências) apresenta a inportância de universitários trabalharem com a virtualização e firewalls virtuais, validando nossa escolha de tema [[3]](#referências) introduz o conceito de hypervisor (utilizado pela VirtualBox) e sua importância para computação em redes; [[4]](#referências), [[5]](#referências) e [[6]](#referências) abordam a virtualização em rede em um escopo similar à nossa pesquisa e serão utilizados em nossa discussão; [[9]](#referências) é a página de um projeto de estado da arte que também será utilizado em nossa discussão; [[7]](#referências), [[8]](#referências), [[10]](#referências) e [[11]](#referências) são a documentação das ferramentas (Virtual Box, pfSense e iperf3) que serão utilizadas no projeto. <br>
 - **Objetivos:** Entender e aplicar os conceitos de **Virtualização** em **Seguraça de Redes** de modo a simular uma rede de computadores virtuais e realizar o benchamarking de uma máquina virtual funcionando com e sem firewalls virtuais.
 
 ## Metodologia
@@ -41,14 +41,15 @@ Sempre comparando com a máquina controle (àquela que não apresenta a proteç�
 ![Fluxograma do projeto](Fluxograma_SistemasInoperantes.png)
 
 ## Resultados
-- Gráficos
-- Tabelas
+![Gráficos do projeto](Gráficos_SistemasInoperantes.png)
 
 ## Discussão
 Análise com base na literatura utilizada na Introdução.
+Considerando os [resultados](#resultados) acima, concluímos que a utilização de um firewall virtual é justificável, desde que acompanhado do devido dimensionamento de hardware. Nesse sentido, temos que o desafio não é escolher entre segurança ou desempenho, mas evitar que o processamento vire um gargalo. <br>
+Uma conclusão análoga foi encontrada em [4], no qual a seção "4. Challenges and Future Trends" menciona que "Garantir que tarefas sejam apropriadamente distribuidas para evitar gargalos enquanto mantem-se performance otimal é crucial", ao mesmo tempo em que reitera a continuação da pesquisa e aplicação da virtualização em redes mobile; Em [5], na seção "3.4 Automation of Virtual Firewall Configuration", uma abordagem moderna é aplicada para a configuração de firewalls e é reiterada a "[...] necessidade de um equilíbrio entre performance, otimização e garantias formais de segurança"; Por fim, em [6] e [9] temos a confirmação de que avanços na velocidade de internet poderão mitigar partes de nossas dificuldades em utilizar virtualização no futuro, em especial no tange a vazão de dados.
 
 ## Conclusão
-Em que medida os objetivos foram alcançados?
+Construímos um laboratório que conseguiu realizar todos os testes que pretendíamos realizar. Podemos dizer que o projeto foi um sucesso. Quanto a resoulução de nosso questionamento, temos que a virtualização fará um papel importante no futuro das redes. Esse raciocínio é melhor evidenciado na seção de [discussão](#discussão).
 
 ## Referências
 [1] SILBERSCHATZ, Abraham; GALVIN, Peter Baer; GAGNE, Greg. **Fundamentos de sistemas operacionais**. 8. ed. Rio de Janeiro: LTC, 2010. <br>
